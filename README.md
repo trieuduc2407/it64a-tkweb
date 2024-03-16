@@ -16,5 +16,5 @@ it64a-tkweb
   Bộ icon chính sử dụng của FontAwesome:
   Cách link vào trong file html:
   Copy phần này vào trong thẻ head của html (thẻ head nằm bên dưới dòng DOCTYPE và bên trên thẻ body, không phải thẻ header)
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  "<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
   Tìm kiếm icon bằng cách vào web https://glyphsearch.com/?library=font-awesome và tìm tên icon, web sẽ tự lưu tên thẻ <i></i> vào bảng nhớ, sau đó paste vào file html đang làm việc là được
