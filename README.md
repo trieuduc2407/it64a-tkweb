@@ -6,7 +6,7 @@ it64a-tkweb
 
 2. File css để trong assets/css:
   Css cho file html nào thì đặt tên y hệt file html đấy, VD: File html tên hotel1.html -> file css của file đấy cũng đặt tên hotel1.html   
-  CÓ THỂ LÀM HOẶC KHÔNG
+  CÓ THỂ LÀM HOẶC KHÔNG.
   KHUYẾN KHÍCH cài đặt NodeJs và SCSS để làm css gọn và dễ nhìn hơn, nếu thấy khó quá có thể dùng css thuần
 
 3. File ảnh để trong img:
