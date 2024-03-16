@@ -4,15 +4,15 @@ it64a-tkweb
   Đặt tên theo phần trang đảm nhiệm, đặt tên tiếng anh ngắn gọn dễ hiểu, VD: Dương nhận khách sạn -> file html chính tên hotel, các trang con có thể để hotel1,hotel2...
   Đặt tên theo 1 quy tắc nhất định, tránh đặt tuỳ hứng gây khó khăn cho việc refactor code và link đường dẫn file
 
-2. File css để trong assets/css
+2. File css để trong assets/css:
   Css cho file html nào thì đặt tên y hệt file html đấy, VD: File html tên hotel1.html -> file css của file đấy cũng đặt tên hotel1.html   
   CÓ THỂ LÀM HOẶC KHÔNG
   KHUYẾN KHÍCH cài đặt NodeJs và SCSS để làm css gọn và dễ nhìn hơn, nếu thấy khó quá có thể dùng css thuần
 
-3. File ảnh để trong img
+3. File ảnh để trong img:
    Trừ những file ảnh dùng chung cho toàn bộ trang web, còn lại những ảnh dùng cho những trang nhất định như khách sạn, tours để riêng vào 1 folder có tên giống với tên trang chính, VD: Các ảnh của trang tours để vào 1     folder đặt tên là tours
 
-4. File icon để trong assets/fonts
+4. File icon để trong assets/fonts:
   Bộ icon chính sử dụng của FontAwesome:
   Cách link vào trong file html:
   Copy phần này vào trong thẻ head của html (thẻ head nằm bên dưới dòng DOCTYPE và bên trên thẻ body, không phải thẻ header)
