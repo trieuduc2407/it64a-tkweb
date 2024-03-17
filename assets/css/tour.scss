@@ -5,133 +5,200 @@
   font-size: 10px;
 }
 
+//Begin header
 .navbar {
   font-family: Helvetica;
   background-color: #003C71;
   height: 6.4rem;
   position: relative;
-}
 
-.container {
-  height: 100%;
-  margin: 0 25rem;
-}
+  .container {
+    height: 100%;
+    margin: 0 20rem;
+  }
 
-.header-navbar {
+  .header-navbar {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .logo_cholon {
+    height: 6.4rem;
+    margin-right: 6.4rem;
+  }
+
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      list-style-type: none;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .active {
+        border-bottom: 0.2rem solid #FFBD00;
+      }
+
+      li {
+        margin-right: 4rem;
+        font-size: 2rem;
+        height: 6.4rem;
+        display: flex;
+        align-items: center;
+        padding: 0 2rem;
+
+        &:hover {
+          color: #26bed6;
+          cursor: pointer;
+          transition: .1s ease-in-out;
+        }
+      }
+    }
+  }
+
+  .account-wrapper {
+    display: flex;
+
+    .account-text {
+      display: inline-block;
+      color: white;
+      font-size: 2rem;
+      align-self: center;
+      padding: 0 0.5rem;
+      height: 100%;
+      width: 100%;
+    }
+
+    .fa-user-circle {
+      color: white;
+      font-size: 5rem ;
+    }
+
+    .fa-angle-down {
+      color: white;
+      font-size: 1.5rem;
+      align-self: center;
+    }
+
+    &:hover {
+      .fa-angle-down, .account-text {
+        color: #26bed6;
+      }
+      cursor: pointer;
+    }
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+
+    .contact-up {
+      display: flex;
+
+      .fa-phone, .phone-num {
+        color: #f79321;
+        font-size: 2.5rem;
+      }
+
+      .phone-num {
+        font-weight: bolder;
+        padding-left: 0.5rem;
+      }
+
+      &:hover {
+        .fa-phone, .phone-num {
+          color: #23527c;
+          transition: 0.3s ease-in-out;
+          cursor:pointer;
+        }
+      }
+    }
+
+    .contact-down {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .fa-clock, .fa-arrow-right, .contact-time, .fa-map-marker-alt, .contact-location, .fa-angle-down {
+        color: white;
+        font-size: 1.5rem;
+      }
+
+      &:hover {
+        .fa-clock, .contact-time, .fa-arrow-right, .fa-map-marker-alt, .contact-location, .fa-angle-down {
+          color: #26bed6;
+          cursor: pointer;
+          transition: .3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+//End header
+
+//Begin content img
+.content-img {
+  font-family: Helvetica;
+  position: relative;
   display: flex;
-  flex-direction: row;
-  height: 100%;
-}
-
-.logo_cholon {
-  height: 6.4rem;
-  margin-right: 6.4rem;
-}
-
-.navbar-content {
-  display: flex;
+  height: 93rem;
   align-items: center;
-  justify-content: space-between;
-}
 
-.navbar-content > ul {
-  list-style-type: none;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar-content > ul > li {
-  margin-right: 6.4rem;
-  font-size: 2rem;
-}
-
-.navbar-content > ul > li:hover {
-  color: #26bed6;
-  cursor: pointer;
-  transition: .1s ease-in-out;
-}
-
-.user-icon {
-  color: white;
-  display: inline-block;
-  height: 2rem;
-}
-
-.account-wrapper {
-  display: flex;
-}
-
-.fa-user-circle {
-  color: white;
-  font-size: 5rem ;
-}
-
-.fa-angle-down {
-  color: white;
-  font-size: 1.5rem;
-  align-self: center;
-}
-
-.account-wrapper > div {
-  display: inline-block;
-  color: white;
-  font-size: 2rem;
-  align-self: center;
-  padding: 0 0.5rem;
-  height: 100%;
-  width: 100%;
-}
-
-.account-wrapper:hover {
-  .fa-angle-down, .account-text {
-    color: #26bed6;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
-    cursor: pointer;
-}
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  margin-left: 8rem;
-}
-
-.contact-up {
-  display: flex;
-  .fa-phone, .phone-num {
-    color: #f79321;
-    font-size: 2.5rem;
-  }
-  .phone-num {
-    font-weight: bolder;
-    padding-left: 0.5rem;
-  }
-}
-
-.header-location {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  .fa-clock, .fa-arrow-right, .contact-time, .fa-map-marker-alt, .contact-location, .fa-angle-down {
+  .text {
+    z-index: 1;
     color: white;
-    font-size: 1.5rem;
-  }
-}
+    margin-left: 20rem;
 
-.contact-up:hover {
-  .fa-phone, .phone-num {
-    color: #23527c;
-    transition: 0.3s ease-in-out;
-    cursor:pointer;
-  }
-}
+    h2 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
 
-.contact-down:hover {
-  .fa-clock, .contact-time, .fa-arrow-right, .fa-map-marker-alt, .contact-location, .fa-angle-down {
-    color: #26bed6;
-    cursor: pointer;
-    transition: .3s ease-in-out;
+    h5 {
+      font-size: 1.5rem;
+      font-weight: normal;
+    }
   }
 }
+//End content img
+
+//Begin sub-content
+.sub-content {
+  font-family: Helvetica;
+  height: 10rem;
+  background-color: rgb(213 213 213);
+  display: block;
+  width: 100%;
+
+  ul {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    li {
+      display: flex;
+      color: #828282;
+      font-size: 3rem;
+    }
+  }
+}
+//End sub-content
