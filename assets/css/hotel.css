@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  font-family: Helvetica;
+  background-color: #003C71;
+  height: 6.4rem;
+  position: relative;
+}
+
+.container {
+  height: 100%;
+  margin: 0 25rem;
+}
+
+.header-navbar {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.logo_cholon {
+  height: 6.4rem;
+  margin-right: 6.4rem;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-content > ul {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-content > ul > li {
+  margin-right: 6.4rem;
+  font-size: 2rem;
+}
+
+.navbar-content > ul > li:hover {
+  color: #26bed6;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.user-icon {
+  color: white;
+  display: inline-block;
+  height: 2rem;
+}
+
+.account-wrapper {
+  display: flex;
+}
+
+.fa-user-circle {
+  color: white;
+  font-size: 5rem;
+}
+
+.fa-angle-down {
+  color: white;
+  font-size: 1.5rem;
+  align-self: center;
+}
+
+.account-wrapper > div {
+  display: inline-block;
+  color: white;
+  font-size: 2rem;
+  align-self: center;
+  padding: 0 0.5rem;
+  height: 100%;
+  width: 100%;
+}
+
+.account-wrapper:hover {
+  cursor: pointer;
+}
+.account-wrapper:hover .fa-angle-down, .account-wrapper:hover .account-text {
+  color: #26bed6;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+}
+
+.contact-up {
+  display: flex;
+}
+.contact-up .fa-phone, .contact-up .phone-num {
+  color: #f79321;
+  font-size: 2.5rem;
+}
+.contact-up .phone-num {
+  font-weight: bolder;
+  padding-left: 0.5rem;
+}
+
+.header-location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-location .fa-clock, .header-location .fa-arrow-right, .header-location .contact-time, .header-location .fa-map-marker-alt, .header-location .contact-location, .header-location .fa-angle-down {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.contact-up:hover .fa-phone, .contact-up:hover .phone-num {
+  color: #23527c;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.contact-down:hover .fa-clock, .contact-down:hover .contact-time, .contact-down:hover .fa-arrow-right, .contact-down:hover .fa-map-marker-alt, .contact-down:hover .contact-location, .contact-down:hover .fa-angle-down {
+  color: #26bed6;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}/*# sourceMappingURL=tour.css.map */
+/* End Header */
+/* Begin Hotel */
+.hero-banner{
+  background-image: url("/assets/img/thiết kế web/slide1.webp");
+  height: 493px;
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-top: 64px;
+  position: absolute;
+  cursor: pointer;
+}
+.heading-banner{
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-left: 190px;
+}
+.sub-heading-banner{
+  color:#fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  padding-left: 190px;
+}
+.background-search-input{
+  height: 165px;
+  width: 760px;
+  background-color: #000000b5;
+  position: relative;
+  left: 190px;
+  border-radius:10px;
+  margin-top: 15px;
+}
