@@ -1,3 +1,11 @@
-h3{
-    color:red;
+.hero-baner{
+    background-image: url("/assets/img/thiết kế web/slide1.webp");
+    position: absolute;
+}
+.background-search-input{
+    background: rgb(0,0,0,0.1);
+    padding-bottom: 50%;
+    position: relative;
+    bottom:50%;
+    z-index: 1;
 }
