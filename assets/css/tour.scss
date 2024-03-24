@@ -2,103 +2,215 @@
   font-family: Helvetica;
 }
 
+//Begin header
 .main-header {
   display: flex;
   justify-content: space-evenly;
-  background-color: #003C71;
+  background-color: #003c71;
   align-items: center;
   position: relative;
-}
 
-.navbar {
-  padding: 0;
-
-  .container-fluid {
+  .navbar {
     padding: 0;
-  }
 
-  .navbar-toggler {
-    border: 0;
+    .container-fluid {
+      padding: 0;
+    }
 
-    &:focus {
-      box-shadow: none;
+    .navbar-toggler {
+      border: 0;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .fa-bars {
+      color: white;
+    }
+
+    .nav-link {
+      color: white;
+
+      &:hover {
+        color: #00c1de;
+      }
+    }
+
+    .nav-link.activated {
+      color: #00c1de;
     }
   }
 
-  .fa-bars {
-    color: white;
-  }
-
-  .nav-link {
-    color: white;
+  .contact-md {
+    .fa-user {
+      color: white;
+    }
 
     &:hover {
-      color: #00C1DE;
+      cursor: pointer;
+
+      .fa-user {
+        color: #00c1de;
+      }
+
+      transition: 0.3s ease-in-out;
     }
   }
 
-  .nav-link.activated {
-    color: #00C1DE;
-  }
-}
-
-.contact-md {
-  .fa-user {
+  .user-login {
     color: white;
+    align-items: center;
+
+    .fa-user-circle {
+      font-size: 4rem;
+      padding-right: 0.5rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      .username-header {
+        color: #00c1de;
+        transition: 0.3s ease-in-out;
+      }
+    }
   }
 
-  &:hover {
-    cursor: pointer;
-    .fa-user {
-      color: #00C1DE;
+  .contact {
+    .hotline {
+      color: #f79321;
+      font-weight: bolder;
+      font-size: 1.2rem;
+
+      &:hover {
+        color: #ffbd00;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+      }
     }
-    transition: 0.3s ease-in-out;
+
+    .location {
+      font-size: 0.8rem;
+      color: white;
+
+      &:hover {
+        cursor: pointer;
+        color: #00c1de;
+        transition: 0.3s ease-in-out;
+      }
+    }
   }
 }
+//End header
 
-.user-login {
-  color: white;
+//Begin carousel
+.content-img {
+  position: relative;
+  display: flex;
   align-items: center;
 
-  .fa-user-circle {
-    font-size: 4rem;
-    padding-right: 0.5rem;
-  }
-
-  &:hover {
-    cursor: pointer;
-    .username-header {
-      color: #00C1DE;
-      transition: 0.3s ease-in-out;
-    }
-  }
-}
-
-.contact {
-  .hotline {
-    color: #F79321;
-    font-weight: bolder;
-    font-size: 1.2rem;
-
-    &:hover {
-      color: #FFBD00;
-      transition: 0.3s ease-in-out;
-      cursor: pointer;
-    }
-  }
-
-  .location {
-    font-size: 0.8rem;
+  .text {
+    position: absolute;
     color: white;
+    margin-left: 8%;
 
-    &:hover {
-      cursor: pointer;
-      color: #00C1DE;
-      transition: 0.3s ease-in-out;
+    h1 {
+      font-weight: bolder;
+    }
+
+    h1, h2 {
+      font-size: 1rem;
     }
   }
 }
+//End carousel
 
+//Begin sub-content
+.sub-content {
+  background-color: rgba(0, 60, 113, 0.05);
+
+  .d-flex {
+    justify-content: center;
+  }
+
+  .row {
+    .content {
+      align-items: center;
+      margin: 1rem 0;
+    }
+
+    .content > i {
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
+    }
+
+    .text {
+      color: #3f3b3b;
+
+      h1 {
+        font-size: 1rem;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 0.7rem;
+        margin: 0;
+      }
+    }
+  }
+}
+//End sub-content
+
+//Begin tours section
+.wrap-background {
+  background-color: #f6f8fa;
+}
+
+.tours {
+  .card-item {
+    background-color: white;
+  }
+
+  .card-item > a {
+    text-decoration: none;
+  }
+
+  .card-item-tour-name-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-item-tour-name {
+    color: #003c71;
+    padding: 0 5%;
+    font-weight: bolder;
+    margin-bottom: 2%;
+  }
+
+  .tour-list-pros {
+    padding: 0 5%;
+  }
+
+  .tour-list-pros > li {
+    color: #00abc5;
+    display: inline;
+    padding-right: 10%;
+  }
+
+  .card-item-price {
+    display: flex;
+    justify-content: flex-end;
+
+    .price, .textCurrency {
+      color: #f79321;
+      font-weight: bolder;
+    }
+  }
+}
+//End tours section
+
+//@media section
 @media (max-width: 767.98px) {
   .main-header {
     display: block;

@@ -5,81 +5,157 @@
 .main-header {
   display: flex;
   justify-content: space-evenly;
-  background-color: #003C71;
+  background-color: #003c71;
   align-items: center;
   position: relative;
 }
-
-.navbar {
+.main-header .navbar {
   padding: 0;
 }
-.navbar .container-fluid {
+.main-header .navbar .container-fluid {
   padding: 0;
 }
-.navbar .navbar-toggler {
+.main-header .navbar .navbar-toggler {
   border: 0;
 }
-.navbar .navbar-toggler:focus {
+.main-header .navbar .navbar-toggler:focus {
   box-shadow: none;
 }
-.navbar .fa-bars {
+.main-header .navbar .fa-bars {
   color: white;
 }
-.navbar .nav-link {
+.main-header .navbar .nav-link {
   color: white;
 }
-.navbar .nav-link:hover {
-  color: #00C1DE;
+.main-header .navbar .nav-link:hover {
+  color: #00c1de;
 }
-.navbar .nav-link.activated {
-  color: #00C1DE;
+.main-header .navbar .nav-link.activated {
+  color: #00c1de;
 }
-
-.contact-md .fa-user {
+.main-header .contact-md .fa-user {
   color: white;
 }
-.contact-md:hover {
+.main-header .contact-md:hover {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
-.contact-md:hover .fa-user {
-  color: #00C1DE;
+.main-header .contact-md:hover .fa-user {
+  color: #00c1de;
 }
-
-.user-login {
+.main-header .user-login {
   color: white;
   align-items: center;
 }
-.user-login .fa-user-circle {
+.main-header .user-login .fa-user-circle {
   font-size: 4rem;
   padding-right: 0.5rem;
 }
-.user-login:hover {
+.main-header .user-login:hover {
   cursor: pointer;
 }
-.user-login:hover .username-header {
-  color: #00C1DE;
+.main-header .user-login:hover .username-header {
+  color: #00c1de;
   transition: 0.3s ease-in-out;
 }
-
-.contact .hotline {
-  color: #F79321;
+.main-header .contact .hotline {
+  color: #f79321;
   font-weight: bolder;
   font-size: 1.2rem;
 }
-.contact .hotline:hover {
-  color: #FFBD00;
+.main-header .contact .hotline:hover {
+  color: #ffbd00;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-.contact .location {
+.main-header .contact .location {
   font-size: 0.8rem;
   color: white;
 }
-.contact .location:hover {
+.main-header .contact .location:hover {
   cursor: pointer;
-  color: #00C1DE;
+  color: #00c1de;
   transition: 0.3s ease-in-out;
+}
+
+.content-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.content-img .text {
+  position: absolute;
+  color: white;
+  margin-left: 8%;
+}
+.content-img .text h1 {
+  font-weight: bolder;
+}
+.content-img .text h1, .content-img .text h2 {
+  font-size: 1rem;
+}
+
+.sub-content {
+  background-color: rgba(0, 60, 113, 0.05);
+}
+.sub-content .d-flex {
+  justify-content: center;
+}
+.sub-content .row .content {
+  align-items: center;
+  margin: 1rem 0;
+}
+.sub-content .row .content > i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+.sub-content .row .text {
+  color: #3f3b3b;
+}
+.sub-content .row .text h1 {
+  font-size: 1rem;
+  margin: 0;
+}
+.sub-content .row .text h2 {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.wrap-background {
+  background-color: #f6f8fa;
+}
+
+.tours .card-item {
+  background-color: white;
+}
+.tours .card-item > a {
+  text-decoration: none;
+}
+.tours .card-item-tour-name-div {
+  display: flex;
+  justify-content: center;
+}
+.tours .card-item-tour-name {
+  color: #003c71;
+  padding: 0 5%;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
+.tours .tour-list-pros {
+  padding: 0 5%;
+}
+.tours .tour-list-pros > li {
+  color: #00abc5;
+  display: inline;
+  padding-right: 10%;
+}
+.tours .card-item-price {
+  display: flex;
+  justify-content: flex-end;
+}
+.tours .card-item-price .price, .tours .card-item-price .textCurrency {
+  color: #f79321;
+  font-weight: bolder;
 }
 
 @media (max-width: 767.98px) {
