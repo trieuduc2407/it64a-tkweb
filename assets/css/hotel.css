@@ -1,5 +1,10 @@
-h3 {
-  color: red;
+.hero-baner{
+  position: relative;
+  background: url("/assets/img/img_cholontourist/bigslide.jpg");
+  width: 100%;
+  height: 498px;
 }
-
-/*# sourceMappingURL=hotel.css.map */
+.background-search-input{
+  background: rgb(0,0,0,0.1);
+  position: absolute;
+}
