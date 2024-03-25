@@ -1,0 +1,100 @@
+* {
+  font-family: Helvetica;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #003C71;
+  align-items: center;
+  position: relative;
+}
+
+.navbar {
+  padding: 0;
+}
+.navbar .container-fluid {
+  padding: 0;
+}
+.navbar .navbar-toggler {
+  border: 0;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar .fa-bars {
+  color: white;
+}
+.navbar .nav-link {
+  color: white;
+}
+.navbar .nav-link:hover {
+  color: #00C1DE;
+}
+.navbar .nav-link.activated {
+  color: #00C1DE;
+}
+
+.contact-md .fa-user {
+  color: white;
+}
+.contact-md:hover {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.contact-md:hover .fa-user {
+  color: #00C1DE;
+}
+
+.user-login {
+  color: white;
+  align-items: center;
+}
+.user-login .fa-user-circle {
+  font-size: 4rem;
+  padding-right: 0.5rem;
+}
+.user-login:hover {
+  cursor: pointer;
+}
+.user-login:hover .username-header {
+  color: #00C1DE;
+  transition: 0.3s ease-in-out;
+}
+
+.contact .hotline {
+  color: #F79321;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.contact .hotline:hover {
+  color: #FFBD00;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.contact .location {
+  font-size: 0.8rem;
+  color: white;
+}
+.contact .location:hover {
+  cursor: pointer;
+  color: #00C1DE;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 767.98px) {
+  .main-header {
+    display: block;
+  }
+}
+@media (min-width: 1400px) {
+  .main-header {
+    display: flex;
+    justify-content: center;
+  }
+  .main-header .user-login {
+    padding: 0 5rem;
+  }
+}
+
+/*# sourceMappingURL=tour-ta-xua-2n1d.css.map */

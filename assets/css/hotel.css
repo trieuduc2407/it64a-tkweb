@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -273,3 +274,9 @@
 .icon-return{
   margin-left:-28px;
 }
+=======
+.hero-banner{
+    background-image: url("");
+    height: 493px;
+}
+>>>>>>> fc56883b06c01b7084b685642cf31b2306683ad6
