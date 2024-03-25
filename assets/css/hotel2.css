@@ -3,9 +3,19 @@
     width: 100%;
     background-repeat: no-repeat;
     position: relative;
+
 }
 .background-search-input{
     background: rgb(0,0,0,0.1);
     position: absolute;
+    top:50%;
+    left:50%;
 }
-
+.bigslide{
+    width: 100%;
+    height: 408px;
+}
+.basic-addon1{
+    width: 30%;
+    background-color: transparent;
+}
