@@ -1,0 +1,103 @@
+* {
+  font-family: Helvetica;
+}
+
+@media (max-width: 767.98px) {
+  .main-header {
+    display: block;
+  }
+}
+@media (min-width: 1400px) {
+  .main-header {
+    display: flex;
+    justify-content: center;
+  }
+  .main-header .user-login {
+    padding: 0 5rem;
+  }
+}
+.main-header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #003c71;
+  align-items: center;
+  position: relative;
+}
+.main-header .navbar {
+  padding: 0;
+}
+.main-header .navbar .container-fluid {
+  padding: 0;
+}
+.main-header .navbar .navbar-toggler {
+  border: 0;
+}
+.main-header .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.main-header .navbar .fa-bars {
+  color: white;
+}
+.main-header .navbar .nav-link {
+  color: white;
+}
+.main-header .navbar .nav-link:hover {
+  color: #00c1de;
+}
+.main-header .navbar .nav-link.activated {
+  color: #00c1de;
+}
+.main-header .contact-md .fa-user {
+  color: white;
+}
+.main-header .contact-md:hover {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.main-header .contact-md:hover .fa-user {
+  color: #00c1de;
+}
+.main-header .user-login {
+  color: white;
+  align-items: center;
+}
+.main-header .user-login .fa-user-circle {
+  font-size: 4rem;
+  padding-right: 0.5rem;
+}
+.main-header .user-login:hover {
+  cursor: pointer;
+}
+.main-header .user-login:hover .username-header {
+  color: #00c1de;
+  transition: 0.3s ease-in-out;
+}
+.main-header .contact .hotline {
+  color: #f79321;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.main-header .contact .hotline:hover {
+  color: #ffbd00;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.main-header .contact .location {
+  font-size: 0.8rem;
+  color: white;
+}
+.main-header .contact .location:hover {
+  cursor: pointer;
+  color: #00c1de;
+  transition: 0.3s ease-in-out;
+}
+
+.banner {
+  padding: 0;
+  position: relative;
+}
+.banner .navbar {
+  z-index: 1;
+}
+
+/*# sourceMappingURL=test.css.map */

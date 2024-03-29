@@ -1,0 +1,129 @@
+* {
+  font-family: Helvetica;
+}
+
+@media (max-width: 767.98px) {
+  .main-header {
+    display: block;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main-header {
+    display: flex;
+    justify-content: center;
+
+    .user-login {
+      padding: 0 5rem;
+    }
+  }
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #003c71;
+  align-items: center;
+  position: relative;
+
+  .navbar {
+    padding: 0;
+
+    .container-fluid {
+      padding: 0;
+    }
+
+    .navbar-toggler {
+      border: 0;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .fa-bars {
+      color: white;
+    }
+
+    .nav-link {
+      color: white;
+
+      &:hover {
+        color: #00c1de;
+      }
+    }
+
+    .nav-link.activated {
+      color: #00c1de;
+    }
+  }
+
+  .contact-md {
+    .fa-user {
+      color: white;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      .fa-user {
+        color: #00c1de;
+      }
+
+      transition: 0.3s ease-in-out;
+    }
+  }
+
+  .user-login {
+    color: white;
+    align-items: center;
+
+    .fa-user-circle {
+      font-size: 4rem;
+      padding-right: 0.5rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      .username-header {
+        color: #00c1de;
+        transition: 0.3s ease-in-out;
+      }
+    }
+  }
+
+  .contact {
+    .hotline {
+      color: #f79321;
+      font-weight: bolder;
+      font-size: 1.2rem;
+
+      &:hover {
+        color: #ffbd00;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+      }
+    }
+
+    .location {
+      font-size: 0.8rem;
+      color: white;
+
+      &:hover {
+        cursor: pointer;
+        color: #00c1de;
+        transition: 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
+.banner {
+  padding: 0;
+  position: relative;
+  //background-image: url("/assets/img/tours/mau_son.jpg");
+  .navbar {
+    z-index: 1;
+  }
+}
