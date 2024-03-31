@@ -165,50 +165,218 @@
 //Begin tours section
 .wrap-background {
   background-color: #f6f8fa;
-}
+  padding-top: 2.5%;
 
-.tours {
-  .card-item {
-    background-color: white;
-  }
+  .tours {
 
-  .card-item > a {
-    text-decoration: none;
-  }
-
-  .card-item-tour-name-div {
-    display: flex;
-    justify-content: center;
-  }
-
-  .card-item-tour-name {
-    color: #003c71;
-    padding: 0 5%;
-    font-weight: bolder;
-    margin-bottom: 2%;
-  }
-
-  .tour-list-pros {
-    padding: 0 5%;
-  }
-
-  .tour-list-pros > li {
-    color: #00abc5;
-    display: inline;
-    padding-right: 10%;
-  }
-
-  .card-item-price {
-    display: flex;
-    justify-content: flex-end;
-
-    .price, .textCurrency {
-      color: #f79321;
+    h3 {
       font-weight: bolder;
+      color: #3f3b3b;
+    }
+
+    h5 {
+      color: #717484;
+    }
+
+    .item {
+      padding-top: 2.5%;
+
+      .card-item {
+        background-color: white;
+
+        .card-item-container {
+          padding: 0;
+        }
+      }
+
+      .card-item > a {
+        text-decoration: none;
+      }
+
+      .card-item-content {
+        .card-item-tour-name-div {
+          display: flex;
+          justify-content: center;
+        }
+
+        .card-item-tour-name {
+          color: #003c71;
+          padding: 0 5%;
+          font-weight: bolder;
+          margin-bottom: 2%;
+        }
+
+        .tour-list-pros {
+          padding: 0 5%;
+        }
+
+        .tour-list-pros > li {
+          color: #00abc5;
+          display: inline;
+          padding-right: 10%;
+        }
+
+        .card-item-price {
+          display: flex;
+          flex-direction: row-reverse;
+
+          .price, .textCurrency {
+            color: #f79321;
+            font-weight: bolder;
+          }
+        }
+      }
+
+      .ta-xua, .cao-bang, .ha-giang-3n2d, .dong-bac, .sapa, .ha-giang-2n3d {
+        .card-item-container {
+          height: 30rem;
+        }
+      }
+
+      .ta-xua {
+
+      }
+
+      .cao-bang {
+
+      }
+
+      .ha-giang-3n2d {
+
+      }
+
+      .dong-bac {
+        position: relative;
+
+        .card-item-container {
+          .card-item-content {
+            position: absolute;
+          }
+        }
+      }
+
+      .sapa {
+
+      }
+
+      .ha-giang-2n3d {
+
+      }
+    }
+
+    .more {
+      display: inline-block;
+      margin: 5% 0;
+      padding: 2% 2.5%;
+      border: 0.1rem solid #26bed6;
+      color: #26bed6;
+      text-decoration: none;
+      font-weight: bolder;
+
+      &:hover {
+        background-color: #26bed6;
+        color: white;
+      }
     }
   }
 }
 //End tours section
+
+//Begin footer
+.main-footer {
+
+  .wrap {
+    background-color: white;
+
+    .row {
+      padding-top: 1rem;
+    }
+
+    .footer-left {
+      color: #4e4e4e;
+
+      .item {
+        align-items: center;
+        margin-top: 5%;
+
+        h3 {
+          margin-left: 1%;
+          margin-bottom: 0;
+          display: inline-block;
+        }
+
+        img, h3 {
+          font-size: 1rem;
+          font-weight: bold;
+        }
+      }
+
+      .social {
+        h5 {
+          font-weight: bolder;
+          color: #4e4e4e;
+        }
+
+        div {
+          display: flex;
+
+          i {
+            color: #4e4e4e;
+            font-size: 2rem;
+            margin-right: 20%;
+          }
+        }
+      }
+    }
+
+    .footer-right {
+      .support {
+        color: #4e4e4e;
+      }
+
+      .contact {
+        b {
+          color: #4e4e4e;
+        }
+
+        h5 {
+          display: inline-block;
+          color: #f79321;
+          font-weight: bold;
+        }
+      }
+
+      .time {
+        h6 {
+          display: inline-block;
+          color: #4e4e4e;
+        }
+
+        i {
+          color: #4e4e4e;
+        }
+      }
+
+      .social {
+        h5 {
+          font-weight: bolder;
+          color: #4e4e4e;
+        }
+
+        div {
+          display: flex;
+
+          i {
+            color: #4e4e4e;
+            font-size: 2rem;
+            margin-right: 20%;
+          }
+        }
+      }
+    }
+  }
+}
+//End footer
 
 //@media section
 @media (max-width: 767.98px) {

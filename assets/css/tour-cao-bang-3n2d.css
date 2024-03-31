@@ -1,0 +1,254 @@
+* {
+  font-family: Helvetica;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #003c71;
+  align-items: center;
+  position: relative;
+}
+.main-header .navbar {
+  padding: 0;
+}
+.main-header .navbar .container-fluid {
+  padding: 0;
+}
+.main-header .navbar .navbar-toggler {
+  border: 0;
+}
+.main-header .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.main-header .navbar .fa-bars {
+  color: white;
+}
+.main-header .navbar .nav-link {
+  color: white;
+}
+.main-header .navbar .nav-link:hover {
+  color: #00c1de;
+}
+.main-header .navbar .nav-link.activated {
+  color: #00c1de;
+}
+.main-header .contact-md .fa-user {
+  color: white;
+}
+.main-header .contact-md:hover {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.main-header .contact-md:hover .fa-user {
+  color: #00c1de;
+}
+.main-header .user-login {
+  color: white;
+  align-items: center;
+}
+.main-header .user-login .fa-user-circle {
+  font-size: 4rem;
+  padding-right: 0.5rem;
+}
+.main-header .user-login:hover {
+  cursor: pointer;
+}
+.main-header .user-login:hover .username-header {
+  color: #00c1de;
+  transition: 0.3s ease-in-out;
+}
+.main-header .contact .hotline {
+  color: #f79321;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.main-header .contact .hotline:hover {
+  color: #ffbd00;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.main-header .contact .location {
+  font-size: 0.8rem;
+  color: white;
+}
+.main-header .contact .location:hover {
+  cursor: pointer;
+  color: #00c1de;
+  transition: 0.3s ease-in-out;
+}
+
+.content .breadcrumb {
+  align-items: center;
+  margin: 2% 0;
+}
+.content .breadcrumb .fa-home {
+  padding-right: 1%;
+}
+.content .breadcrumb .breadcrumb-item, .content .breadcrumb .fa-home, .content .breadcrumb .breadcrumb-item > a {
+  text-decoration: none;
+  color: #818180;
+}
+.content .tour-name {
+  color: #003c71;
+  font-weight: bolder;
+}
+.content .tour-info {
+  margin-top: 2.5%;
+  background-color: rgba(148, 151, 163, 0.1);
+  padding: 2.5% 0;
+}
+.content .tour-info ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.content .tour-info ul li {
+  margin: 0 1%;
+  color: #50535d;
+  font-size: 1.5rem;
+}
+.content .tour-content {
+  margin: 2.5% 0;
+  padding: 1% 0;
+  background-color: #ecf0f5;
+}
+.content .tour-content .tour-content-container {
+  margin: 0 1%;
+}
+.content .tour-content .tour-content-container h3 {
+  color: #003c71;
+  font-weight: bolder;
+}
+.content .tour-content .tour-content-container h4 {
+  text-transform: uppercase;
+  color: #4e4e4e;
+  font-weight: bold;
+  margin: 1% 1%;
+}
+.content .tour-content .tour-content-container p {
+  margin: 0 1% 1% 1%;
+  text-align: justify;
+  color: #3f3b3b;
+  font-size: 1.2rem;
+}
+.content .tour-content .tour-content-container p em {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.content .tour-content .nav-tabs .nav-link {
+  color: #003c71;
+  font-size: 1rem;
+  border: none;
+  background: none;
+}
+.content .tour-content .nav-tabs .nav-link:hover {
+  background: #f7f7f7;
+  color: #444;
+}
+.content .tour-content .nav-tabs .active {
+  color: #26bed6;
+  border-bottom: 0.2rem solid #26bed6;
+  font-weight: bold;
+}
+.content .tour-content .nav-tabs .active:hover {
+  background: none;
+  color: #26bed6;
+}
+.content .tour-content .tab-content {
+  margin-top: 2.5%;
+}
+.content .tour-content .tab-content h6 {
+  font-weight: bold;
+}
+.content .tour-content .tab-content h5 {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.content .tour-content .tab-content h6, .content .tour-content .tab-content h5, .content .tour-content .tab-content p {
+  margin-left: 2.5%;
+}
+
+.main-footer .wrap {
+  border-top: 0.1rem solid #4e4e4e;
+  background-color: #ecf0f5;
+}
+.main-footer .wrap .row {
+  padding-top: 1rem;
+}
+.main-footer .wrap .footer-left {
+  color: #4e4e4e;
+}
+.main-footer .wrap .footer-left .item {
+  align-items: center;
+  margin-top: 5%;
+}
+.main-footer .wrap .footer-left .item h3 {
+  margin-left: 1%;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.main-footer .wrap .footer-left .item img, .main-footer .wrap .footer-left .item h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.main-footer .wrap .footer-left .social h5 {
+  font-weight: bolder;
+  color: #4e4e4e;
+}
+.main-footer .wrap .footer-left .social div {
+  display: flex;
+}
+.main-footer .wrap .footer-left .social div i {
+  color: #4e4e4e;
+  font-size: 2rem;
+  margin-right: 20%;
+}
+.main-footer .wrap .footer-right .support {
+  color: #4e4e4e;
+}
+.main-footer .wrap .footer-right .contact b {
+  color: #4e4e4e;
+}
+.main-footer .wrap .footer-right .contact h5 {
+  display: inline-block;
+  color: #f79321;
+  font-weight: bold;
+}
+.main-footer .wrap .footer-right .time h6 {
+  display: inline-block;
+  color: #4e4e4e;
+}
+.main-footer .wrap .footer-right .time i {
+  color: #4e4e4e;
+}
+.main-footer .wrap .footer-right .social h5 {
+  font-weight: bolder;
+  color: #4e4e4e;
+}
+.main-footer .wrap .footer-right .social div {
+  display: flex;
+}
+.main-footer .wrap .footer-right .social div i {
+  color: #4e4e4e;
+  font-size: 2rem;
+  margin-right: 20%;
+}
+
+@media (max-width: 767.98px) {
+  .main-header {
+    display: block;
+  }
+}
+@media (min-width: 1400px) {
+  .main-header {
+    display: flex;
+    justify-content: center;
+  }
+  .main-header .user-login {
+    padding: 0 5rem;
+  }
+}
+
+/*# sourceMappingURL=tour-cao-bang-3n2d.css.map */
