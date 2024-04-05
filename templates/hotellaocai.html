@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Lào Cai</title>
+   
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="hotelhagiang.css">
+    
+
+</head>
+<body style="background-image: url(images/bckgrd.jpg)">
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#">Khách sạn</a>
+        <a href="#">Tours</a>
+        <a href="#">Vé vui chơi</a>
+        <a href="#">Vé xe khách</a>
+        <a href="#">Beespoke</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Đăng nhập</h3>
+        <input type="email" class="box" placeholder="Nhập email">
+        <input type="password" class="box" placeholder="Nhập mật khẩu">
+        <input type="submit" value="Đăng nhập" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Nhớ mật khẩu</label>
+        <p>Quên mật khẩu? <a href="#">Ấn vào đây</a></p>
+        <p>Chưa có tài khoản? <a href="#">Đăng kí</a></p>
+    </form>
+
+</div>
+
+
+<!-- content container -->
+<div class="container">
+<div class="row">
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/bighotellaocai.jpg" class="card-img-top img-fluid w-100" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Big Hotel Lào Cai</h5>
+        <a href="https://www.google.com/maps/place/BIG+L%C3%A0o+Cai+Hotel/@22.4811922,103.9685478,17z/data=!4m10!3m9!1s0x36cd15368c794c11:0x3a73da4f6faa7493!5m3!1s2024-04-05!4m1!1i2!8m2!3d22.4811922!4d103.9711227!16s%2Fg%2F11mvz4rh8d?hl=vi-VN&entry=ttu" class="card-address">505 Đ. Hoàng Liên, Kim Tân, Lào Cai</a>
+        <p class="card-text">Nằm ở vị trí trung tâm tại Lào Cai của Lào Cai, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Mát-xa, spa và nhà hàng là một trong những tiện nghi đặc biệt sẽ nâng cao kỳ nghỉ của quý khách với sự tiện lợi ngay trong khuôn viên.</p>
+        <p class="card-price"> 280.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/khachsancaominh.jpg" class="card-img-top img-fluid w-100" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Khách Sạn Cao Minh</h5>
+        <a href="https://www.google.com/maps/place/Kh%C3%A1ch+s%E1%BA%A1n+Cao+Minh+L%C3%A0o+Cai/@22.4929894,103.9673465,17z/data=!4m10!3m9!1s0x36cd131832f89565:0x8d6c4cd4730dc77e!5m3!1s2024-04-05!4m1!1i2!8m2!3d22.4929894!4d103.9699214!16s%2Fg%2F11pv1df6nt?hl=vi-VN&entry=ttu" class="card-address">108 An Đ. Vương, Lào Cai</a>
+        <p class="card-text">Đỗ xe và Wi-Fi luôn miễn phí, vì vậy quý khách có thể giữ liên lạc, đến và đi tùy ý. Nằm ở vị trí trung tâm tại Lào Cai của Lào Cai, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị.</p>
+        <p class="card-price"> 300.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/khachsanlaocaidiamondlaocai.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Khách Sạn Lào Cai Diamond</h5>
+        <a href="https://www.google.com/maps/place/Lao+cai+Diamond+Hotel/@22.473969,103.9631868,14z/data=!4m14!1m2!2m1!1za2jDoWNoIHPhuqFuIGzDoG8gY2FpIGRpYW1vbmQ!3m10!1s0x36cd1318ec529673:0xbc8c8504eaa15482!5m3!1s2024-04-05!4m1!1i2!8m2!3d22.4908462!4d103.978019!15sCh1raMOhY2ggc-G6oW4gbMOgbyBjYWkgZGlhbW9uZJIBBWhvdGVs4AEA!16s%2Fg%2F11fct31009?hl=vi-VN&entry=ttu" class="card-address">358 Nguyễn Huệ, Phố Mới, Lào Cai</a>
+        <p class="card-text">Nằm ở vị trí trung tâm tại Lào Cai của Lào Cai, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Được xếp hạng 3 sao, chỗ nghỉ chất lượng cao này cho phép khách nghỉ sử dụng xông khô và nhà hàng ngay trong khuôn viên.</p>
+        <p class="card-price"> 280.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/khachsanlaocaistar.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Khách Sạn Lào Cai Star</h5>
+        <a href="https://www.google.com/maps/place/Lao+Cai+Star+Hotel/@22.5004896,103.9633177,17z/data=!4m10!3m9!1s0x36cd139eca67335f:0xf9cc932463bbcb5e!5m3!1s2024-04-05!4m1!1i2!8m2!3d22.5004896!4d103.9658926!16s%2Fg%2F1hf024_sg?hl=vi-VN&entry=ttu" class="card-address">3 Đ. Hoàng Liên, Cốc Lếu, Lào Cai</a>
+        <p class="card-text"> Nằm ở vị trí trung tâm tại Lào Cai của Lào Cai, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Được xếp hạng 3 sao, chỗ nghỉ chất lượng cao này cho phép khách nghỉ sử dụng xông khô và nhà hàng ngay trong khuôn viên.</p>
+        <p class="card-price"> 900.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/laocairoyalhotel.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lào Cai Royal Hotel</h5>
+        <a href="https://www.google.com/maps/place/Kh%C3%A1ch+s%E1%BA%A1n+Royal+L%C3%A0o+Cai/@22.5093264,103.9505156,17z/data=!3m1!4b1!4m10!3m9!1s0x36cd13d35cd2869b:0xc11bd919b123d2a1!5m3!1s2024-04-05!4m1!1i2!8m2!3d22.5093265!4d103.9553865!16s%2Fg%2F11gg9gmw07?hl=vi-VN&entry=ttu" class="card-address">Tổ 29 Thanh Niên, Duyên Hải, Lào Cai</a>
+        <p class="card-text">Tọa lạc ở Lào Cai, Lào Cai Royal Hotel cung cấp chỗ nghỉ 3 sao có sân hiên. Chỗ nghỉ này có các tiện nghi như nhà hàng, dịch vụ phòng và quầy lễ tân 24 giờ, cùng với Wi-Fi miễn phí ở toàn bộ chỗ nghỉ.</p>
+        <p class="card-price"> 720.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/muonhthanhlaocai.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Khách Sạn Mường Thành Lào Cai</h5>
+        <a href="https://www.google.com/maps/place/Kh%C3%A1ch+s%E1%BA%A1n+M%C6%B0%E1%BB%9Dng+Thanh+Grand+L%C3%A0o+Cai/@22.5020967,103.9631548,17z/data=!4m10!3m9!1s0x36cd139f1d2474e3:0xbf4fddf168cf8581!5m3!1s2024-04-05!4m1!1i2!8m2!3d22.5020967!4d103.9657297!16s%2Fg%2F11bw4v4h8f?hl=vi-VN&entry=ttu">86 Thanh Niên, Duyên Hải, Lào Cai</a>
+        <p class="card-text"> Được xếp hạng 4 sao, chỗ nghỉ chất lượng cao này cho phép khách nghỉ sử dụng bể bơi trong nhà, mát-xa và bể bơi ngoài trời ngay trong khuôn viên.</p>
+        <p class="card-price"> 800.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div> 
+</div>
+</div>
+
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button> -->
+    
+    <!-- order-form -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Đặt phòng</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <div class="row">
+                  <div class="col-5">
+                <label for="recipient-name" class="col-form-label">Họ và tên</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Họ và tên">
+                </div>
+                <div class="col-5">
+                <label for="recipient-name" class="col-form-label">Email</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Email">
+              </div>
+              <div class="col-2">
+                <label for="recipient-name" class="col-form-label">Số người</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Số người">
+              </div>
+              </div>
+              </div>
+              <div class="mb-3">
+                <div class="row">
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Số điện thoại</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Số điện thoại">
+                  </div>
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Ngày đi</label>
+                    <input type="date" class="form-control" id="recipient-name" >
+                  </div>
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Ngày về</label>
+                    <input type="date" class="form-control" id="recipient-name" >
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer" style="padding-bottom:4em;">
+            <button type="button" class="btn btn-primary btn-order">Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- end order form -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
