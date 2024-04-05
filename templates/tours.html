@@ -5,10 +5,11 @@
   <meta name = "viewport"
 		content = "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
-  <link rel = "stylesheet" href = "/assets/css/tour.css">
+  <link rel = "stylesheet" href = "/assets/css/tours.css ">
   <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 		integrity = "sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
 		crossorigin = "anonymous" referrerpolicy = "no-referrer"/>
+
   <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
 		rel = "stylesheet"
 		integrity = "sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
@@ -16,6 +17,27 @@
   <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		  integrity = "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		  crossorigin = "anonymous"></script>
+
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+		  integrity = "sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+		  crossorigin = "anonymous"
+		  referrerpolicy = "no-referrer"></script>
+
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+		  integrity = "sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+		  crossorigin = "anonymous"
+		  referrerpolicy = "no-referrer"></script>
+  <link rel = "stylesheet"
+		href = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		integrity = "sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+		crossorigin = "anonymous"
+		referrerpolicy = "no-referrer"/>
+  <link rel = "stylesheet"
+		href = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+		integrity = "sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+		crossorigin = "anonymous"
+		referrerpolicy = "no-referrer"/>
+
   <title>Đặt tour du lịch trong nước và tour du lịch quốc tế trực tuyến với cholontourist.com.vn</title>
 </head>
 <body>
@@ -115,63 +137,65 @@
 <div class = "wrap-background">
   <div class = "tours container">
 	<section class = "content">
-	  <div class = "col-xs-12 no-padding">
+	  <div class = "col">
 		<h3 class = "title">Tour Du Lịch Đông Tây Bắc</h3>
 		<h5 class = "title">Thiên Nhiên Hùng Vĩ, Văn Hóa Đặc Sắc</h5>
-		<div class = "item row row-gap-5">
-          <div class = "ta-xua col-xs-12 col-sm-6 col-md-4">
-            <div class = "card-item col-xs-12">
-              <a href = "#">
-                <div class = "card-item-container col-xs-12 no-padding container">
-                  <div class = "card-item-image col-xs-12 no-padding">
-                    <img class = "img-fluid w-100" src = "/assets/img/tours/tours-cards/ivivu-song-lung-ta-xua-1-360x225.jpg" alt = "">
-                  </div>
-                  <div class = "card-item-content col-xs-12">
-                    <div class = "card-item-tour-name-div col-xs-12">
-                      <div class = "card-item-tour-name">Tour Tà Xùa 2N1Đ: Hà Nội - Tà Xùa - Mỏm Cá Heo - Sống Lưng
-                                                         Khủng Long
-                      </div>
-                    </div>
-                    <div class = "card-item-tour-detail col-xs-12">
-                      <div class = "card-item-depart col-xs-12 col-sm-12 col-md-12 col-lg-12 v-margin-bottom-5">
-                        <ul class = "tour-list-pros">
-                          <li>Thung Lũng Mận</li>
-                          <li>Săn Mây Tà Xùa</li>
-                          <li>Cầu Kính Bạch Long</li>
-                        </ul>
-                      </div>
-                      <div class = "card-item-price col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class = "item owl-carousel row row-gap-5">
+		  <div class = "ta-xua col-12 col-sm-6 col-md-4">
+			<div class = "card-item col">
+			  <a href = "#">
+				<div class = "card-item-container col container">
+				  <div class = "card-item-image col">
+					<img class = "img-fluid w-100"
+						 src = "/assets/img/tours/tours-cards/ivivu-song-lung-ta-xua-1-360x225.jpg"
+						 alt = "">
+				  </div>
+				  <div class = "card-item-content col">
+					<div class = "card-item-tour-detail col">
+					  <div class = "card-item-tour-name">Tour Tà Xùa 2N1Đ: Hà Nội - Tà Xùa - Mỏm Cá Heo - Sống Lưng
+						Khủng Long
+					  </div>
+					  <div class = "card-item-depart col-12">
+						<ul class = "tour-list-pros">
+						  <li>Thung Lũng Mận</li>
+						  <li>Săn Mây Tà Xùa</li>
+						  <li>Cầu Kính Bạch Long</li>
+						</ul>
+					  </div>
+					  <div class = "card-item-price col-12">
                       <span class = "price">
                         1.790.000
                         <small class = "textCurrency">VND</small>
                       </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-		  <div class = "cao-bang col-xs-12 col-sm-6 col-md-4">
-			<div class = "card-item col-xs-12">
-			  <a href = "#">
-				<div class = "card-item-container col-xs-12 no-padding container">
-				  <div class = "card-item-image col-xs-12 no-padding">
-					<img class = "img-fluid w-100" src = "/assets/img/tours/tours-cards/ivivu-hoa-ba-be-4-360x225.jpg" alt = "">
-				  </div>
-				  <div class = "card-item-content col-xs-12">
-					<div class = "card-item-tour-name-div col-xs-12">
-					  <div class = "card-item-tour-name">Tour Cao Bằng 3N2Đ: Hồ Ba Bể - Pắc Ngòi - Thác Bản Giốc - Suối Lê Nin</div>
+					  </div>
 					</div>
-					<div class = "card-item-tour-detail col-xs-12">
-					  <div class = "card-item-depart col-xs-12 col-sm-12 col-md-12 col-lg-12 v-margin-bottom-5">
+				  </div>
+				</div>
+			  </a>
+			</div>
+		  </div>
+		  <div class = "cao-bang col-12 col-sm-6 col-md-4">
+			<div class = "card-item col-12">
+			  <a href = "#">
+				<div class = "card-item-container col container">
+				  <div class = "card-item-image col">
+					<img class = "img-fluid w-100"
+						 src = "/assets/img/tours/tours-cards/ivivu-hoa-ba-be-4-360x225.jpg"
+						 alt = "">
+				  </div>
+				  <div class = "card-item-content col">
+					<div class = "card-item-tour-detail col">
+					  <div class = "card-item-tour-name">Tour Cao Bằng 3N2Đ: Hồ Ba Bể - Pắc Ngòi - Thác Bản Giốc - Suối
+						Lê Nin
+					  </div>
+					  <div class = "card-item-depart col-12">
 						<ul class = "tour-list-pros">
 						  <li>Hồ Ba Bể</li>
 						  <li>Thác Bản Giốc</li>
 						  <li>Động Ngườm Ngao</li>
 						</ul>
 					  </div>
-					  <div class = "card-item-price col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					  <div class = "card-item-price col-12">
                       <span class = "price">
                         2.390.000
                         <small class = "textCurrency">VND</small>
@@ -183,26 +207,26 @@
 			  </a>
 			</div>
 		  </div>
-		  <div class = "ha-giang-3n2d col-xs-12 col-sm-6 col-md-4">
-			<div class = "card-item col-xs-12">
+		  <div class = "ha-giang-3n2d col-12 col-sm-6 col-md-4">
+			<div class = "card-item col">
 			  <a href = "#">
-				<div class = "card-item-container col-xs-12 no-padding container">
-				  <div class = "card-item-image col-xs-12 no-padding">
-					<img class = "img-fluid w-100" src = "/assets/img/tours/tours-cards/ivivu-song-nho-que-360x225.jpg" alt = "">
+				<div class = "card-item-container col container">
+				  <div class = "card-item-image col">
+					<img class = "img-fluid w-100"
+						 src = "/assets/img/tours/tours-cards/ivivu-song-nho-que-360x225.jpg"
+						 alt = "">
 				  </div>
-				  <div class = "card-item-content col-xs-12">
-					<div class = "card-item-tour-name-div col-xs-12">
-					  <div class = "card-item-tour-name">Tour Hà Giang 3N2Đ: Hà Nội - Hà Giang - Yên Minh - Đồng Văn</div>
-					</div>
-					<div class = "card-item-tour-detail col-xs-12">
-					  <div class = "card-item-depart col-xs-12 col-sm-12 col-md-12 col-lg-12 v-margin-bottom-5">
+				  <div class = "card-item-content col">
+					<div class = "card-item-tour-detail col">
+					  <div class = "card-item-tour-name">Tour Hà Giang 3N2Đ: Hà Nội - Hà Giang - Yên Minh - Đồng Văn
+					  </div>
+					  <div class = "card-item-depart col-12">
 						<ul class = "tour-list-pros">
 						  <li>Chèo thuyền trên sông Nho Quế</li>
-						  <li>Ngắm nhìn cảnh quan hùng vĩ từ đèo Mã Pí Lèng</li>
 						  <li>Thăm chợ phiên Đồng Văn</li>
 						</ul>
 					  </div>
-					  <div class = "card-item-price col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					  <div class = "card-item-price col-12">
                       <span class = "price">
                         2.390.000
                         <small class = "textCurrency">VND</small>
@@ -214,27 +238,28 @@
 			  </a>
 			</div>
 		  </div>
-		  <div class = "dong-bac col-xs-12 col-sm-6 col-md-4">
-			<div class = "card-item col-xs-12">
+		  <div class = "dong-bac col-12 col-sm-6 col-md-4">
+			<div class = "card-item col">
 			  <a href = "#">
-				<div class = "card-item-container col-xs-12 no-padding container">
-				  <div class = "card-item-image col-xs-12 no-padding">
-					<img class = "img-fluid w-100" src = "/assets/img/tours/tours-cards/ivivu-thac-ban-gioc-360x225.jpg" alt = "">
+				<div class = "card-item-container col container">
+				  <div class = "card-item-image col">
+					<img class = "img-fluid w-100"
+						 src = "/assets/img/tours/tours-cards/ivivu-thac-ban-gioc-360x225.jpg"
+						 alt = "">
 				  </div>
-				  <div class = "card-item-content col-xs-12">
-					<div class = "card-item-tour-name-div col-xs-12">
-					  <div class = "card-item-tour-name">Tour Đông Bắc 5N4Đ: HCM - Hà Giang - Cao Bằng - Thác Bản Giốc - Thảo Nguyên Đồng Lâm - Chùa Tam Thanh</div>
-					</div>
-					<div class = "card-item-tour-detail col-xs-12">
-					  <div class = "card-item-depart col-xs-12 col-sm-12 col-md-12 col-lg-12 v-margin-bottom-5">
+				  <div class = "card-item-content col">
+					<div class = "card-item-tour-detail col">
+					  <div class = "card-item-tour-name">Tour Đông Bắc 5N4Đ: HCM - Hà Giang - Cao Bằng - Thác Bản Giốc -
+						Thảo Nguyên Đồng Lâm - Chùa Tam Thanh
+					  </div>
+					  <div class = "card-item-depart col-12">
 						<ul class = "tour-list-pros">
-						  <li>Khám Phá Tứ Đại Đỉnh Đèo Đông Bắc</li>
-						  <li>Văn Hóa Phong Tục Dân Tộc</li>
+						  <li>Tứ Đại Đỉnh Đèo</li>
 						  <li>Động Ngườm Ngao</li>
 						  <li>Chùa Tam Thanh</li>
 						</ul>
 					  </div>
-					  <div class = "card-item-price col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					  <div class = "card-item-price col-12">
                       <span class = "price">
                         8.690.000
                         <small class = "textCurrency">VND</small>
@@ -246,19 +271,21 @@
 			  </a>
 			</div>
 		  </div>
-		  <div class = "sapa col-xs-12 col-sm-6 col-md-4">
-			<div class = "card-item col-xs-12">
+		  <div class = "sapa col-12 col-sm-6 col-md-4">
+			<div class = "card-item col">
 			  <a href = "#">
-				<div class = "card-item-container col-xs-12 no-padding container">
-				  <div class = "card-item-image col-xs-12 no-padding">
-					<img class = "img-fluid w-100" src = "/assets/img/tours/tours-cards/ivivu-sapaview-360x225.jpg" alt = "">
+				<div class = "card-item-container col container">
+				  <div class = "card-item-image col">
+					<img class = "img-fluid w-100"
+						 src = "/assets/img/tours/tours-cards/ivivu-sapaview-360x225.jpg"
+						 alt = "">
 				  </div>
-				  <div class = "card-item-content col-xs-12">
-					<div class = "card-item-tour-name-div col-xs-12">
-					  <div class = "card-item-tour-name">Tour Sapa 2N3Đ: Hà Nội - Sapa - Fansipan - Cát Cát /Moana View</div>
-					</div>
-					<div class = "card-item-tour-detail col-xs-12">
-					  <div class = "card-item-depart col-xs-12 col-sm-12 col-md-12 col-lg-12 v-margin-bottom-5">
+				  <div class = "card-item-content col">
+					<div class = "card-item-tour-detail col">
+					  <div class = "card-item-tour-name">Tour Sapa 2N3Đ: Hà Nội - Sapa - Fansipan - Cát Cát /Moana
+						View
+					  </div>
+					  <div class = "card-item-depart col-12">
 						<ul class = "tour-list-pros">
 						  <li>Đỉnh Fansipang</li>
 						  <li>Tiêu Chuẩn 3 Sao</li>
@@ -267,7 +294,7 @@
 						  <li>Cát Cát</li>
 						</ul>
 					  </div>
-					  <div class = "card-item-price col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					  <div class = "card-item-price col-12">
                       <span class = "price">
                         3.090.000
                         <small class = "textCurrency">VND</small>
@@ -279,26 +306,27 @@
 			  </a>
 			</div>
 		  </div>
-		  <div class = "ha-giang-2n3d col-xs-12 col-sm-6 col-md-4">
-			<div class = "card-item col-xs-12">
+		  <div class = "ha-giang-2n3d col-12 col-sm-6 col-md-4">
+			<div class = "card-item col">
 			  <a href = "#">
-				<div class = "card-item-container col-xs-12 no-padding container">
-				  <div class = "card-item-image col-xs-12 no-padding">
-					<img class = "img-fluid w-100" src = "/assets/img/tours/tours-cards/ivivu-ha-giang-nho-que-360x225.jpg" alt = "">
+				<div class = "card-item-container col container">
+				  <div class = "card-item-image col">
+					<img class = "img-fluid w-100"
+						 src = "/assets/img/tours/tours-cards/ivivu-ha-giang-nho-que-360x225.jpg"
+						 alt = "">
 				  </div>
-				  <div class = "card-item-content col-xs-12">
-					<div class = "card-item-tour-name-div col-xs-12">
-					  <div class = "card-item-tour-name">Tour Hà Giang 2N3Đ: Hà Nội - Hà Giang - Đồng Văn Xe Cabin VIP</div>
-					</div>
-					<div class = "card-item-tour-detail col-xs-12">
-					  <div class = "card-item-depart col-xs-12 col-sm-12 col-md-12 col-lg-12 v-margin-bottom-5">
+				  <div class = "card-item-content col">
+					<div class = "card-item-tour-detail col">
+					  <div class = "card-item-tour-name">Tour Hà Giang 2N3Đ: Hà Nội - Hà Giang - Đồng Văn Xe Cabin VIP
+					  </div>
+					  <div class = "card-item-depart col-12">
 						<ul class = "tour-list-pros">
 						  <li>Cổng Trời Quản Bạ</li>
 						  <li>Cột Cờ Lũng Cú</li>
 						  <li>Đèo Mã Pí Lèng</li>
 						</ul>
 					  </div>
-					  <div class = "card-item-price col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					  <div class = "card-item-price col-12">
                       <span class = "price">
                         3.240.000
                         <small class = "textCurrency">VND</small>
@@ -312,14 +340,35 @@
 		  </div>
 		</div>
 		<div class = "row">
-		  <div class="col-12 text-center">
-			<a class="more" href = "#">Xem thêm tours</a>
+		  <div class = "col-12 text-center">
+			<a class = "more" href = "#">Xem thêm tours</a>
 		  </div>
 		</div>
 	  </div>
 	</section>
   </div>
 </div>
+
+<script>
+    const carousel = document.querySelector('.owl-carousel');
+    if (window.innerWidth > 576) {
+        carousel.classList.toggle('owl-carousel')
+    }
+
+    $('.owl-carousel').owlCarousel({
+        loop: false,
+        margin: 20,
+        responsiveClass: false,
+        responsiveBaseElement: window,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+        }
+    })
+</script>
 <!--End tours-->
 
 <!--Begin footer-->
