@@ -27,9 +27,11 @@ html{
 }
 
 section{
-  padding:2rem 9%;
+  padding:1rem 10%;
 }
-
+section .main-footer .footer-right section{
+  padding:0 ;
+}
 .heading{
   text-align: center;
   padding:2.5rem 0
@@ -421,8 +423,9 @@ header .search-bar-container label:hover{
 .services .box-container .box:hover{
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
-
-
+#services{
+  border-bottom: 1px solid #333;
+}
 
 
 
@@ -443,7 +446,7 @@ header .search-bar-container label:hover{
   }
 
   section{
-    padding:2rem;
+    /*padding:2rem;*/
   }
 
 }
