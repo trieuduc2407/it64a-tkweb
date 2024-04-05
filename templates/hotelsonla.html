@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Sơn La</title>
+   
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="hotelhagiang.css">
+    
+
+</head>
+<body style="background-image: url(images/bckgrd.jpg)">
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#">Khách sạn</a>
+        <a href="#">Tours</a>
+        <a href="#">Vé vui chơi</a>
+        <a href="#">Vé xe khách</a>
+        <a href="#">Beespoke</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Đăng nhập</h3>
+        <input type="email" class="box" placeholder="Nhập email">
+        <input type="password" class="box" placeholder="Nhập mật khẩu">
+        <input type="submit" value="Đăng nhập" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Nhớ mật khẩu</label>
+        <p>Quên mật khẩu? <a href="#">Ấn vào đây</a></p>
+        <p>Chưa có tài khoản? <a href="#">Đăng kí</a></p>
+    </form>
+
+</div>
+
+
+<!-- content container -->
+<div class="container">
+<div class="row">
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/1941mhomestaytaxua.jpg" class="card-img-top img-fluid w-100" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">1941M Homestay Tà Xùa</h5>
+        <a href="https://www.google.com/maps/place/1941M+Homestay+T%C3%A0+X%C3%B9a/@21.308486,104.451518,17z/data=!4m10!3m9!1s0x313307547316a737:0x644de4bb027b029!5m3!1s2024-04-05!4m1!1i2!8m2!3d21.308486!4d104.4540929!16s%2Fg%2F11rpth2ndk?hl=vi-VN&entry=ttu" class="card-address"> Sống Lưng Khủng Long, Tà Xùa, Bắc Yên, Sơn La</a>
+        <p class="card-text">1941M Homestay Tà Xùa ở Lạng Sơn cung cấp chỗ nghỉ có khu vườn, phòng chờ chung và sân hiên. Ngoài dịch vụ tiền sảnh, chỗ nghỉ này còn có công viên nước.</p>
+        <p class="card-price"> 600.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/aphuhome.jpg" class="card-img-top img-fluid w-100" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">A Phủ Home</h5>
+        <a href="https://www.google.com/maps/place/A+Ph%E1%BB%A7+Home%E2%80%99s/@21.2801078,104.4249305,17z/data=!3m1!4b1!4m10!3m9!1s0x31330763cc8f0627:0x49b1b9951e38ba90!5m3!1s2024-04-05!4m1!1i2!8m2!3d21.2801078!4d104.4275054!16s%2Fg%2F11q8s3c3g_?hl=vi-VN&entry=ttu" class="card-address">ĐT112, Tà Xùa, Bắc Yên, Sơn La</a>
+        <p class="card-text">A Phủ Home tọa lạc ở Sơn La. Tại đây có sân hiên và khách có thể sử dụng Wi-Fi miễn phí và chỗ đậu xe riêng miễn phí. </p>
+        <p class="card-price"> 240.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/hoabantranghotel.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hoa Ban Trắng Hotel</h5>
+        <a href="https://www.google.com/maps/dir//HOA+BAN+TR%E1%BA%AENG+HOTEL,+31+%C4%90.+3-2,+P.+Quy%E1%BA%BFt+Th%E1%BA%AFng,+S%C6%A1n+La,+Vi%E1%BB%87t+Nam/@21.3245277,103.9175771,17z/data=!4m21!1m11!3m10!1s0x3132f5051214074f:0xf4c407b7f7e40d05!2sHOA+BAN+TR%E1%BA%AENG+HOTEL!5m3!1s2024-04-05!4m1!1i2!8m2!3d21.3245277!4d103.920152!16s%2Fg%2F11h_2g8ym_!4m8!1m0!1m5!1m1!1s0x3132f5051214074f:0xf4c407b7f7e40d05!2m2!1d103.920152!2d21.3245277!3e4?hl=vi-VN&entry=ttu" class="card-address">31 Đ. 3-2, P. Quyết Thắng, Sơn La</a>
+        <p class="card-text">Khách sạn bình dị này nằm trên một con phố sôi động tập trung nhiều quán ăn và cửa hàng, cách trạm xe buýt 6 phút đi bộ, cách Di tích Nhà tù Sơn La 2 km và cách công viên sinh thái Khu du Lịch Rừng Vàng 8 km.</p>
+        <p class="card-price"> 1.000.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/sojohotellangson.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sojo Hotel Lạng Sơn</h5>
+        <a href="https://www.google.com/maps/dir//SOJO+Hotel+L%E1%BA%A1ng+S%C6%A1n,+297+Phai+V%E1%BB%87,+Mai+Pha,+Th%C3%A0nh+ph%E1%BB%91+L%E1%BA%A1ng+S%C6%A1n,+L%E1%BA%A1ng+S%C6%A1n,+Vi%E1%BB%87t+Nam/@21.8465005,106.7710771,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x36b54fab4a906b3b:0xe3eee38e2d7f3399!2m2!1d106.7736505!2d21.8465009?hl=vi-VN&entry=ttu" class="card-address">Phai Ve, Mai Pha, Lạng Sơn.</a>
+        <p class="card-text">SOJO Hotel Lang Son có trung tâm thể dục, phòng chờ chung, nhà hàng và quầy bar ở Lạng Sơn.</p>
+        <p class="card-price"> 750.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/muongthanhhotellaichau.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Khách Sạn Mường Thanh Luxury Sơn La</h5>
+        <a href="https://www.google.com/maps/place/Kh%C3%A1ch+s%E1%BA%A1n+M%C6%B0%E1%BB%9Dng+Thanh+Luxury+S%C6%A1n+La/@21.3278569,103.9103326,17z/data=!4m10!3m9!1s0x31328b2cea7d243f:0x85e55d6231399f90!5m3!1s2024-04-05!4m1!1i2!8m2!3d21.3278569!4d103.9129075!16s%2Fg%2F11gh37sx0x?hl=vi-VN&entry=ttu" class="card-address">Số 2 Tô Hiệu, P. Tô Hiệu, Sơn La</a>
+        <p class="card-text">Nằm ở vị trí trung tâm tại Sơn La của Sơn La, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Được xếp hạng 5 sao, chỗ nghỉ chất lượng cao này cho phép khách nghỉ sử dụng mát-xa, bể bơi ngoài trời và bồn tắm nước nóng ngay trong khuôn viên.</p>
+        <p class="card-price"> 1.200.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/taxuajade-vunghomestay.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tà Xùa Jade-Vừng Homestay</h5>
+        <a href="https://www.google.com/maps/place/V%E1%BB%ABng+Homestay/@21.2768223,104.4328185,17z/data=!4m18!1m7!3m6!1s0x3133065331cd403b:0xaed34c7bcaf90862!2zVUJORCB4w6MgVMOgIFjDuWE!8m2!3d21.2754127!4d104.4342991!16s%2Fg%2F11cs1h4x99!3m9!1s0x31330714295663e1:0x40e2eef44265a76e!5m3!1s2024-04-05!4m1!1i2!8m2!3d21.2786357!4d104.4333846!16s%2Fg%2F11tmrv5c7p?hl=vi-VN&entry=ttu" class="card-address">05 Bản Mây, tt Tà Xùa, huyện Bắc Yên, tỉnh Sơn La</a>
+        <p class="card-text">Nằm ở vị trí trung tâm tại Sơn La của Sơn La, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị.</p>
+        <p class="card-price"> 300.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div> 
+</div>
+</div>
+
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button> -->
+    
+    <!-- order-form -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Đặt phòng</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <div class="row">
+                  <div class="col-5">
+                <label for="recipient-name" class="col-form-label">Họ và tên</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Họ và tên">
+                </div>
+                <div class="col-5">
+                <label for="recipient-name" class="col-form-label">Email</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Email">
+              </div>
+              <div class="col-2">
+                <label for="recipient-name" class="col-form-label">Số người</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Số người">
+              </div>
+              </div>
+              </div>
+              <div class="mb-3">
+                <div class="row">
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Số điện thoại</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Số điện thoại">
+                  </div>
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Ngày đi</label>
+                    <input type="date" class="form-control" id="recipient-name" >
+                  </div>
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Ngày về</label>
+                    <input type="date" class="form-control" id="recipient-name" >
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer" style="padding-bottom:4em;">
+            <button type="button" class="btn btn-primary btn-order">Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- end order form -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>

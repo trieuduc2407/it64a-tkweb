@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="hotel.css">
+    
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#">Khách sạn</a>
+        <a href="#">Tours</a>
+        <a href="#">Vé vui chơi</a>
+        <a href="#">Vé xe khách</a>
+        <a href="#">Beespoke</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Tìm kiếm">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Đăng nhập</h3>
+        <input type="email" class="box" placeholder="Nhập email">
+        <input type="password" class="box" placeholder="Nhập mật khẩu">
+        <input type="submit" value="Đăng nhập" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Nhớ mật khẩu</label>
+        <p>Quên mật khẩu? <a href="#">Ấn vào đây</a></p>
+        <p>Chưa có tài khoản? <a href="hotel.css">Đăng kí</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Trải nghiệm kỳ nghỉ tuyệt vời</h3>
+        <p>Combo khách sạn - vé xe khách - đưa đón sân bay giá tốt nhất</p>
+        <a href="#" class="btn">Khám phá ngay</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>Đ</span>
+        <span>ặ</span>
+        <span>t</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>g</span>
+        <span>a</span>
+        <span>y</span>
+
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Địa điểm</h3>
+                <input type="text" placeholder="Bạn muốn đi đâu?">
+            </div>
+            <div class="inputBox">
+                <h3>Số người</h3>
+                <input type="number" placeholder="Số người">
+            </div>
+            <div class="inputBox">
+                <h3>Ngày đi</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Ngày về</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="Đặt ngay">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>G</span>
+        <span>ó</span>
+        <span>i</span>
+        <span class="space"></span>
+        <span>c</span>
+        <span>ơ</span>
+        <span class="space"></span>
+        <span>b</span>
+        <span>ả</span>
+        <span>n</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/hagiang.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Hà Giang </h3>
+                <p>Hà Giang - Nơi đá nở hoa, mây vờn núi, và trái tim lữ khách rung động.</p> 
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 6 khách sạn </div> 
+                <a href="hotelhagiang.html" class="btn">Xem ngay</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/langson.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Lạng Sơn</h3>
+                <p>Lạng Sơn - Nơi non xanh nước biếc, hương vị xứ Lạng vấn vương</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 6 khách sạn</div>
+                <a href="hotellangson.html" class="btn">Xem ngay</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/caobang.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Cao Bằng </h3>
+                <p>Cao Bằng - Nơi đá hát lời ca, mây ùa lối bước, và hồn ta phiêu du cùng non nước.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 5 khách sạn </div>
+                <a href="hotelcaobang.html" class="btn">Xem ngay</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/laichau.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Lai Châu </h3>
+                <p>Nơi núi non hùng vĩ, mây trời lãng mạn, và bản sắc Tây Bắc nồng nàn.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> 6 khách sạn</span> </div>
+                <a href="hotellaichau.html" class="btn">Xem ngay</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/sonla.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Sơn La</h3>
+                <p>nơi hương lúa nếp quyện trong sương, và tiếng khèn du dương trên đỉnh núi.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">8 khách sạn</div>
+                <a href="hotelsonla.html" class="btn">Xem ngay</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/sapa.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Lào Cai</h3>
+                <p>nơi Fansipan sừng sững giữa mây trời, và Sapa ẩn mình trong sương mù huyền ảo.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">5 khách sạn</div>
+                <a href="hotellaocai.html" class="btn">Xem Ngay</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>D</span>
+        <span>ị</span>
+        <span>c</span>
+        <span>h</span>
+        <span class="space"></span>
+        <span>v</span>
+        <span>ụ</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>khách sạn bình dân</h3>
+            <p>Hệ thống khách sạn đa dạng, phù hợp với mọi nhu cầu và ngân sách, vị trí thuận lợi, dễ dàng di chuyển đến các điểm tham quan, giá cả cạnh tranh, nhiều ưu đãi hấp dẫn.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>ẩm thực</h3>
+            <p>Thưởng thức những món ăn đặc sản địa phương độc đáo, mang đậm hương vị núi rừng, không gian ẩm thực ấm cúng, mang đến cho bạn những trải nghiệm khó quên.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>cuộc phiêu lưu</h3>
+            <p>Chuyến đi bộ đường dài, chèo thuyền kayak, leo núi, cắm trại và còn nhiều hơn thế nữa, luôn cập nhật những dịch vụ du lịch phiêu lưu mới nhất, đáp ứng mọi nhu cầu và sở thích của bạn.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> mr. web designer </span> | all rights reserved! </h1>
+    <footer class = "main-footer">
+        <div class = "wrap">
+          <div class = "container">
+            <div class = "row">
+              <div class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
+                <div class = "col-xs-12 no-padding">
+                  <div class = "row">
+                    <div class = "footer-left col-12 order-last col-lg-8 order-lg-first">
+                      <div class = "row">
+                        <div class = "col-3">
+                          <div class = "item d-block d-md-flex">
+                            <img src = "images/ico-wta-winner-shield-2021.png" class = "img-fluid" alt = "">
+                            <h3>Đại lý Du lịch Trực tuyến Hàng đầu Việt Nam</h3>
+                          </div>
+                        </div>
+                        <div class = "col-3">
+                          <div class = "item d-block d-md-flex">
+                            <img src = "images/ico-hra.png" alt = "">
+                            <h3>Best Companies to Work for in Asia</h3>
+                          </div>
+                        </div>
+                        <div class = "col-3">
+                          <div class = "item d-block d-md-flex">
+                            <img src = "images/ico-apea.png" alt = "">
+                            <h3>APEA Inspirational Brand Award</h3>
+                          </div>
+                        </div>
+                      </div>
+                      <section class = "social d-sm-none">
+                        <h5>Kết nối với Cholontourist</h5>
+                        <div>
+                          <i class = "fab fa-facebook-square"></i>
+                          <i class = "fab fa-instagram"></i>
+                          <i class = "fab fa-youtube"></i>
+                        </div>
+                      </section>
+                      <div class = "row">
+                        <div class = "col ms-auto d-none d-md-block">
+                          <div class = "item">
+                            <i class = "fa fa-map-marker-alt"></i>
+                            <h3>HN:</h3>
+                            <h3>207 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class = "footer-right col-12 order-first col-lg-4 order-lg-last ms-auto">
+                      <section class = "support">
+                        Bạn cần trợ giúp?
+                        <b>Hãy gọi ngay</b>
+                      </section>
+                      <section class = "contact">
+                        <i class = "fa fa-phone"></i>
+                        <b>CSKH:</b>
+                        <h5>(0912) 888 888</h5>
+                      </section>
+                      <section class = "time">
+                        <i class = "fa fa-clock"></i>
+                        <h6>Từ 7h30 - 21h hằng ngày</h6>
+                      </section>
+                      <section class = "social d-none d-sm-block">
+                        <h5>Kết nối với Cholontourist</h5>
+                        <div>
+                          <i class = "fab fa-facebook-square"></i>
+                          <i class = "fab fa-instagram"></i>
+                          <i class = "fab fa-youtube"></i>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--End footer-->
+
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>

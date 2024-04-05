@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Lai Châu</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="hotelhagiang.css">
+    
+
+</head>
+<body style="background-image: url(images/bckgrd.jpg)">
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#">Khách sạn</a>
+        <a href="#">Tours</a>
+        <a href="#">Vé vui chơi</a>
+        <a href="#">Vé xe khách</a>
+        <a href="#">Beespoke</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Đăng nhập</h3>
+        <input type="email" class="box" placeholder="Nhập email">
+        <input type="password" class="box" placeholder="Nhập mật khẩu">
+        <input type="submit" value="Đăng nhập" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Nhớ mật khẩu</label>
+        <p>Quên mật khẩu? <a href="#">Ấn vào đây</a></p>
+        <p>Chưa có tài khoản? <a href="#">Đăng kí</a></p>
+    </form>
+
+</div>
+
+
+<!-- content container -->
+<div class="container">
+<div class="row">
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/khachsajnminhsonlaichau.jpg" class="card-img-top img-fluid w-100" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Khách Sạn Minh Sơn Lai Châu</h5>
+        <a href="https://www.google.com/maps/dir//Kh%C3%A1ch+S%E1%BA%A1n+Minh+S%C6%A1n+Lai+Ch%C3%A2u,+33+M%C6%B0%E1%BB%9Dng+Kim,+T%C3%A2n+Phong,+Th%E1%BB%8B+x%C3%A3+Lai+Ch%C3%A2u,+Lai+Ch%C3%A2u+30000,+Vi%E1%BB%87t+Nam/@22.3909286,103.4733374,17z/data=!4m21!1m11!3m10!1s0x36d2a1135cecee97:0x1a472047a0fc9e7f!2zS2jDoWNoIFPhuqFuIE1pbmggU8ahbiBMYWkgQ2jDonU!5m3!1s2024-04-05!4m1!1i2!8m2!3d22.3909287!4d103.4782083!16s%2Fg%2F11fhngp9sx!4m8!1m0!1m5!1m1!1s0x36d2a1135cecee97:0x1a472047a0fc9e7f!2m2!1d103.4782083!2d22.3909287!3e4?hl=vi-VN&entry=ttu" class="card-address">33 Nguyen Thi Minh Khai, Lai Châu</a>
+        <p class="card-text">Khách Sạn Minh Sơn Lai Châu có khu vườn, phòng chờ chung, sân hiên và nhà hàng ở Hà Giang. Chỗ nghỉ cung cấp lễ tân 24/24, dịch vụ đưa đón sân bay, bếp chung và Wi-Fi miễn phí..</p>
+        <p class="card-price"> 329.167 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/khachsanhoangnhamhotelluxyrylaichau.jpg" class="card-img-top img-fluid w-100" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hoàng Nhâm Luxury Hotel</h5>
+        <a href="https://www.google.com/maps/dir//9FMF%2BP5P+Hoang+Nham+Luxury+Hotel,+30+Th%C3%A1ng+4,+T%C3%A2n+Phong,+Th%E1%BB%8B+x%C3%A3+Lai+Ch%C3%A2u,+Lai+Ch%C3%A2u,+Vi%E1%BB%87t+Nam/@22.3843254,103.4703814,17z/data=!4m21!1m11!3m10!1s0x36d2a1bf6c2b8a89:0xe0b49a3a0c8bd948!2sHoang+Nham+Luxury+Hotel!5m3!1s2024-04-05!4m1!1i2!8m2!3d22.3843254!4d103.4729563!16s%2Fg%2F11gsbdxb0n!4m8!1m0!1m5!1m1!1s0x36d2a1bf6c2b8a89:0xe0b49a3a0c8bd948!2m2!1d103.4729563!2d22.3843254!3e4?hl=vi-VN&entry=ttu" class="card-address">69 Điện Biên Phủ, Lai Châu</a>
+        <p class="card-text">Hoàng Nhâm Luxury Hotelcó Wi-Fi miễn phí ở toàn bộ chỗ nghỉ và nhìn ra hồ ở Hà Giang, khách sạn còn có chỗ để xe riêng miễn phí.</p>
+        <p class="card-price"> 1.040.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/khachsanputaleng.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Khách Sạn Putaleng</h5>
+        <a href="https://www.google.com/maps/dir//Putaleng+Hotel,+Center+of+Tam+Duong+Town,+321+%C4%90.+V%C3%B5+Nguy%C3%AAn+Gi%C3%A1p,+TT.+Tam+%C4%90%C6%B0%E1%BB%9Dng,+Tam+%C4%90%C6%B0%E1%BB%9Dng,+Lai+Ch%C3%A2u,+Vi%E1%BB%87t+Nam/@22.3219342,103.6197923,17z/data=!4m21!1m11!3m10!1s0x36cd594afb144271:0x295b10fa8b231bd4!2sPutaleng+Hotel!5m3!1s2024-04-05!4m1!1i2!8m2!3d22.3219342!4d103.6223672!16s%2Fg%2F11f4wv5rhm!4m8!1m0!1m5!1m1!1s0x36cd594afb144271:0x295b10fa8b231bd4!2m2!1d103.6223756!2d22.3219501!3e4?hl=vi-VN&entry=ttu" class="card-address">Thị trấn Tam Đường, Tam Dương, Lai Châu</a>
+        <p class="card-text">Khách Sạn Putaleng có khu vườn, phòng chờ chung, sân hiên và quầy bar ở Hà Giang. Ngoài Wi-Fi miễn phí, khách sạn 4 sao này còn cung cấp bếp chung và dịch vụ phòng.</p>
+        <p class="card-price"> 550.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/lananhhotel.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lan Anh Hotel</h5>
+        <a href="https://www.google.com/maps/dir//Kh%C3%A1ch+S%E1%BA%A1n+Lan+Anh,+T%E1%BB%95+9,+Ph%C6%B0%E1%BB%9Dng+S%C3%B4ng+%C4%90%C3%A0,+Th%E1%BB%8B+x%C3%A3,+Lai+Ch%C3%A2u,+Vi%E1%BB%87t+Nam/@22.4073785,102.2289848,9z/data=!4m18!1m8!3m7!1s0x36d2a220ff962893:0xbe800f0e270bbc8f!2zS2jDoWNoIFPhuqFuIExhbiBBbmg!8m2!3d22.4073743!4d103.4484085!15sChdsYW4gYW5oIGhvdGVsIGxhaSBjaMOidZIBBWhvdGVs4AEA!16s%2Fg%2F11j8x6p045!4m8!1m0!1m5!1m1!1s0x36d2a220ff962893:0xbe800f0e270bbc8f!2m2!1d103.4484085!2d22.4073743!3e4?hl=vi-VN&entry=ttu" class="card-address">Tổ 9, phường Sông Đà, Lai Châu </a>
+        <p class="card-text">Lan Anh Hotel có xe đạp miễn phí, khu vườn, phòng chờ chung và sân hiên ở Hà Giang. Chỗ nghỉ này có các tiện nghi như dịch vụ phòng và quầy lễ tân 24 giờ.</p>
+        <p class="card-price"> 60.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/muongthanhhotellaichau.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Khách Sạn Mường Thanh Lai Châu</h5>
+        <a href="https://www.google.com/maps/place/Golden+Jungle+House/@22.8194465,104.9779402,18.75z/data=!4m19!1m8!3m7!1s0x36cc79ae15f9e7cd:0x7082f7386420efbe!2zMzkgSGFpIELDoCBUcsawbmcsIFAuIE5ndXnhu4VuIFRyw6NpLCBIw6AgR2lhbmcsIFZp4buHdCBOYW0!3b1!8m2!3d22.8194544!4d104.9783376!16s%2Fg%2F11s9ksc2zp!3m9!1s0x36cc79fed2890e13:0x75615adfd76906dc!5m3!1s2024-04-01!4m1!1i2!8m2!3d22.8192291!4d104.9786224!16s%2Fg%2F11g10cvj16?hl=vi-VN&entry=ttu" class="card-address">113 Lê Duẩn, Tân Phong, Thị xã Lai Châu</a>
+        <p class="card-text">Khách Sạn Mường Thanh Lai Châu có khu vườn, phòng chờ chung, nhà hàng và quầy bar ở Hà Giang. Ngoài dịch vụ phòng, chỗ nghỉ này còn có sân hiên phơi nắng.</p>
+        <p class="card-price"> 707.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/nhakhachhuongphong.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nhà Khách Hương Phong</h5>
+        <a href="https://www.google.com/maps/dir//H%C6%B0%C6%A1ng+Phong,+T%C3%A2n+Phong,+Tp.+Lai+Ch%C3%A2u,+Lai+Ch%C3%A2u,+Vi%E1%BB%87t+Nam/@22.3931976,103.4751986,17z/data=!4m18!1m8!3m7!1s0x36d2a1a3a8509ad1:0x8b1ca65aff1a54e1!2zSMawxqFuZyBQaG9uZywgVMOibiBQaG9uZywgVHAuIExhaSBDaMOidSwgTGFpIENow6J1LCBWaeG7h3QgTmFt!3b1!8m2!3d22.3931976!4d103.4777735!16s%2Fg%2F11bbt3jz47!4m8!1m0!1m5!1m1!1s0x36d2a1a3a8509ad1:0x8b1ca65aff1a54e1!2m2!1d103.4777735!2d22.3931976!3e4?hl=vi-VN&entry=ttu" class="card-address">Số 59 Đại Lộ Lê Lợi, Phường Tân Phong, Thành Phố Lai Châu</a>
+        <p class="card-text">Nhà Khách Hương Phong có khu vườn, phòng chờ chung, sân hiên và nhà hàng ở Hà Giang.Khách sạn còn cung cấp dịch vụ thuê xe đạp cho những khách muốn khám phá khu vực xung quanh.</p>
+        <p class="card-price"> 600.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div> 
+</div>
+</div>
+
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button> -->
+    
+    <!-- order-form -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Đặt phòng</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <div class="row">
+                  <div class="col-5">
+                <label for="recipient-name" class="col-form-label">Họ và tên</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Họ và tên">
+                </div>
+                <div class="col-5">
+                <label for="recipient-name" class="col-form-label">Email</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Email">
+              </div>
+              <div class="col-2">
+                <label for="recipient-name" class="col-form-label">Số người</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Số người">
+              </div>
+              </div>
+              </div>
+              <div class="mb-3">
+                <div class="row">
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Số điện thoại</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Số điện thoại">
+                  </div>
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Ngày đi</label>
+                    <input type="date" class="form-control" id="recipient-name" >
+                  </div>
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Ngày về</label>
+                    <input type="date" class="form-control" id="recipient-name" >
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer" style="padding-bottom:4em;">
+            <button type="button" class="btn btn-primary btn-order">Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- end order form -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>

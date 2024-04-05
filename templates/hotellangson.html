@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Lạng Sơn</title>
+   
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="hotelhagiang.css">
+    
+
+</head>
+<body style="background-image: url(images/bckgrd.jpg)">
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#">Khách sạn</a>
+        <a href="#">Tours</a>
+        <a href="#">Vé vui chơi</a>
+        <a href="#">Vé xe khách</a>
+        <a href="#">Beespoke</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Đăng nhập</h3>
+        <input type="email" class="box" placeholder="Nhập email">
+        <input type="password" class="box" placeholder="Nhập mật khẩu">
+        <input type="submit" value="Đăng nhập" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Nhớ mật khẩu</label>
+        <p>Quên mật khẩu? <a href="#">Ấn vào đây</a></p>
+        <p>Chưa có tài khoản? <a href="#">Đăng kí</a></p>
+    </form>
+
+</div>
+
+
+<!-- content container -->
+<div class="container">
+<div class="row">
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/whitehotel.jpg" class="card-img-top img-fluid w-100" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">White Hotel</h5>
+        <a href="https://www.google.com/maps/dir//Kh%C3%A1ch+s%E1%BA%A1n+Whitehotel,+39+L%C3%AA+H%E1%BB%93ng+Phong,+Tam+Thanh,+Th%C3%A0nh+ph%E1%BB%91+L%E1%BA%A1ng+S%C6%A1n,+L%E1%BA%A1ng+S%C6%A1n,+Vi%E1%BB%87t+Nam/@21.8586222,106.7531083,18.75z/data=!4m8!4m7!1m0!1m5!1m1!1s0x36b54f099e81725f:0x17982705ede59ad1!2m2!1d106.7538819!2d21.8587221?hl=vi-VN&entry=ttu" class="card-address">37 Lê Hồng Phong, Tam Thanh, Lạng Sơn.</a>
+        <p class="card-text">WHITE HOTEL ở Lạng Sơn cung cấp chỗ nghỉ 3 sao có khu vườn, phòng chờ chung và sân hiên. Ngoài dịch vụ tiền sảnh, chỗ nghỉ này còn có công viên nước.</p>
+        <p class="card-price"> 850.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/haisonhotel.jpg" class="card-img-top img-fluid w-100" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hoàng Sơn Hải Hotel</h5>
+        <a href="https://www.google.com/maps/dir//Kh%C3%A1ch+S%E1%BA%A1n+Ho%C3%A0ng+S%C6%A1n+H%E1%BA%A3i,+57+Tam+Thanh,+Th%C3%A0nh+ph%E1%BB%91+L%E1%BA%A1ng+S%C6%A1n,+L%E1%BA%A1ng+S%C6%A1n,+Vi%E1%BB%87t+Nam/@21.8531985,106.7505094,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x36b54e71b7e7aa45:0x26628074c276df84!2m2!1d106.7553803!2d21.8531986?hl=vi-VN&entry=ttu" class="card-address">57 Tam Thanh, Lạng Sơn.</a>
+        <p class="card-text">Hoàng Sơn Hải Hotel tọa lạc ở Lạng Sơn. Tại đây có sân hiên và khách có thể sử dụng Wi-Fi miễn phí và chỗ đậu xe riêng miễn phí. </p>
+        <p class="card-price"> 300.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/khachsananhtu.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Khách Sạn Anh Tú</h5>
+        <a href="https://www.google.com/maps/dir//ANH+T%C3%9A+HOTEL,+95+L%C3%BD+Th%C6%B0%E1%BB%9Dng+Ki%E1%BB%87t,+V%C4%A9nh+Tr%E1%BA%A1i,+Th%C3%A0nh+ph%E1%BB%91+L%E1%BA%A1ng+S%C6%A1n,+L%E1%BA%A1ng+S%C6%A1n,+Vi%E1%BB%87t+Nam/@21.8613363,106.7623759,19z/data=!4m8!4m7!1m0!1m5!1m1!1s0x36b54f05f7e03afb:0x80a41235bcf53fdb!2m2!1d106.7630196!2d21.8613363?hl=vi-VN&entry=ttu" class="card-address"> Lý Thường Kiệt, Lạng Sơn.</a>
+        <p class="card-text">KHÁCH SẠN ANH TÚ tọa lạc ở Lạng Sơn. Chỗ nghỉ này cung cấp dịch vụ phòng và Wi-Fi miễn phí ở toàn bộ chỗ nghỉ.</p>
+        <p class="card-price"> 1.000.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/sojohotellangson.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sojo Hotel Lạng Sơn</h5>
+        <a href="https://www.google.com/maps/dir//SOJO+Hotel+L%E1%BA%A1ng+S%C6%A1n,+297+Phai+V%E1%BB%87,+Mai+Pha,+Th%C3%A0nh+ph%E1%BB%91+L%E1%BA%A1ng+S%C6%A1n,+L%E1%BA%A1ng+S%C6%A1n,+Vi%E1%BB%87t+Nam/@21.8465005,106.7710771,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x36b54fab4a906b3b:0xe3eee38e2d7f3399!2m2!1d106.7736505!2d21.8465009?hl=vi-VN&entry=ttu" class="card-address">Phai Ve, Mai Pha, Lạng Sơn.</a>
+        <p class="card-text">SOJO Hotel Lang Son có trung tâm thể dục, phòng chờ chung, nhà hàng và quầy bar ở Lạng Sơn.</p>
+        <p class="card-price"> 2.064.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/khachsandongphuong.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Khách Sạn Đông Phương</h5>
+        <a href="https://www.google.com/maps/dir//Kh%C3%A1ch+S%E1%BA%A1n+%C4%90%C3%94NG+Ph%C6%B0%C6%A1ng,+46+Ng%C3%B4+Gia+T%E1%BB%B1,+%C4%90%C3%B4ng+Kinh,+Th%C3%A0nh+ph%E1%BB%91+L%E1%BA%A1ng+S%C6%A1n,+L%E1%BA%A1ng+S%C6%A1n,+Vi%E1%BB%87t+Nam/@21.8494061,106.75927,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x36b54fddaf130819:0x8577e557e8ccfcf2!2m2!1d106.7618459!2d21.8493982?hl=vi-VN&entry=ttu" class="card-address">46 Ngô Gia Tự, Lạng Sơn.</a>
+        <p class="card-text">Khách Sạn Đông Phương cung cấp chỗ nghỉ tại Lạng Sơn. Khách sạn 3 sao này có dịch vụ phòng và quầy lễ tân 24 giờ.</p>
+        <p class="card-price"> 400.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card" >
+      <img src="images/phuquyhotel.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Phú Quý Hotel</h5>
+        <a href="https://www.google.com/maps/dir//Kh%C3%A1ch+s%E1%BA%A1n+Ph%C3%BA+Qu%C3%BD+-+%C4%91%E1%BB%8Ba+ch%E1%BB%89+l%C6%B0u+tr%C3%BA+uy+t%C3%ADn+t%E1%BA%A1i+L%E1%BA%A1ng+S%C6%A1n,+200+Phai+V%E1%BB%87,+%C4%90%C3%B4ng+Kinh,+Th%C3%A0nh+ph%E1%BB%91+L%E1%BA%A1ng+S%C6%A1n,+L%E1%BA%A1ng+S%C6%A1n,+Vi%E1%BB%87t+Nam/@21.8485996,106.767072,18.25z/data=!4m8!4m7!1m0!1m5!1m1!1s0x36b54e7dcca10179:0xda329c3d338f0dc3!2m2!1d106.7678431!2d21.848708?hl=vi-VN&entry=ttu" class="card-address">200 Phai Vệ 7 Tầng, Lạng Sơn.</a>
+        <p class="card-text">Nhìn ra thành phố, PHÚ QUÝ HOTEL near ĐÔNG KINH MARKET nằm ở Lạng Sơn và có nhà hàng, phòng chờ chung, quầy bar, khu vườn cũng như sân hiên.</p>
+        <p class="card-price"> 790.000 VND</p>
+        <!-- <a href="#" class="btn btn-primary">Đặt ngay</a> -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button>
+      </div>
+    </div>
+  </div> 
+</div>
+</div>
+
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Đặt ngay</button> -->
+    
+    <!-- order-form -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Đặt phòng</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <div class="row">
+                  <div class="col-5">
+                <label for="recipient-name" class="col-form-label">Họ và tên</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Họ và tên">
+                </div>
+                <div class="col-5">
+                <label for="recipient-name" class="col-form-label">Email</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Email">
+              </div>
+              <div class="col-2">
+                <label for="recipient-name" class="col-form-label">Số người</label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Số người">
+              </div>
+              </div>
+              </div>
+              <div class="mb-3">
+                <div class="row">
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Số điện thoại</label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Số điện thoại">
+                  </div>
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Ngày đi</label>
+                    <input type="date" class="form-control" id="recipient-name" >
+                  </div>
+                  <div class="col-4">
+                    <label for="message-text" class="col-form-label">Ngày về</label>
+                    <input type="date" class="form-control" id="recipient-name" >
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer" style="padding-bottom:4em;">
+            <button type="button" class="btn btn-primary btn-order">Đặt ngay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- end order form -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
