@@ -426,7 +426,9 @@ header .search-bar-container label:hover{
 #services{
   border-bottom: 1px solid #333;
 }
-
+.main-header{
+  height: 64px;
+}
 
 
 /* media queries  */
@@ -476,6 +478,7 @@ header .search-bar-container label:hover{
     padding:1.5rem;
     margin:1.5rem 0;    
     background:#222;
+    text-decoration: none;
   }
 
 }
