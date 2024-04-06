@@ -15,36 +15,60 @@
     <link rel="stylesheet" href="/assets/css/tour.css">
 </head>
 <body>
-    
-<!-- header section starts  -->
 
-<header>
-
-    <div id="menu-bar" class="fas fa-bars"></div>
-
-    <a href="#" class="logo"><span>T</span>ravel</a>
-
-    <nav class="navbar">
-        <a href="#">Khách sạn</a>
-        <a href="#">Tours</a>
-        <a href="#">Vé vui chơi</a>
-        <a href="#">Vé xe khách</a>
-        <a href="#">Beespoke</a>
+<!--Begin header-->
+<header class = "main-header">
+    <nav class = "navbar navbar-expand-md">
+        <div class = "container-fluid">
+            <a class = "navbar-brand" href = "#">
+                <img src = "/assets/img/logo_cholon_resized_height_80.png" alt = "">
+            </a>
+            <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse"
+                    data-bs-target = "#navbarSupportedContent" aria-controls = "navbarSupportedContent"
+                    aria-expanded = "false" aria-label = "Toggle navigation">
+                <span class = "fa fa-bars"></span>
+            </button>
+            <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+                <ul class = "navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "/templates/hotel.html" style="color:#00c1de">Khách sạn</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link activated" href = "#" style="color: #FFF">Tours</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#">Vé xe khách</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#">Vé vui chơi</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#">Bespoke</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-
-    <div class="icons">
-        <i class="fas fa-search" id="search-btn"></i>
-        <i class="fas fa-user" id="login-btn"></i>
+    <div class = "contact-md d-none d-md-block d-lg-none">
+        <i class = "fa fa-user"></i>
     </div>
-
-    <form action="" class="search-bar-container">
-        <input type="search" id="search-bar" placeholder="Tìm kiếm">
-        <label for="search-bar" class="fas fa-search"></label>
-    </form>
-
+    <div class = "user-login d-none d-lg-flex">
+        <i class = "fa fa-user-circle"></i>
+        <span class = "username-header">Tài khoản</span>
+    </div>
+    <div class = "contact d-none d-lg-block">
+        <div class = "hotline">
+            <i class = "fa fa-phone"></i>
+            (0912) 888 888
+        </div>
+        <div class = "location">
+            7h30 → 21h
+            <i class = "fa fa-map-marker"></i>
+            Hà Nội
+        </div>
+    </div>
 </header>
-
-<!-- header section ends -->
+<!--End header-->
 
 <!-- login form container  -->
 
